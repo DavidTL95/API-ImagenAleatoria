@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(240, 240, 255);
+}
+
+#boton, .contenedorBotones button{
+    height: 4rem;
+    width: 10rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    background-color: rgb(74, 81, 149);
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    text-shadow: black 0px 2px;
+    color: rgb(240, 240, 255);
+
+}
+
+.contenedorBotones{
+    margin-bottom: 2rem;
+}
+
+#boton:active, .contenedorBotones button:active{
+    box-shadow: inset black 0px 4px;
+    text-shadow: black 0px -2px;
+
+}
+
+#contenedorImagen{
+    width: 25%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(145, 145, 169);
+
+    margin-top: 2rem;
+}
+
+.imagen{
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
